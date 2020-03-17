@@ -1,0 +1,1019 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{97f086d7-ac82-42d2-b392-8334b5c970b7}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{24e439ce-aac4-4d54-9d94-02378808b1fa}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="ParamDlg Files">
+      <UniqueIdentifier>{7374cd5d-53a9-445a-9a69-c14e78e01913}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View Files">
+      <UniqueIdentifier>{a9321356-3a12-4f23-b37b-865cd1b45864}</UniqueIdentifier>
+      <Extensions>h;c;cpp</Extensions>
+    </Filter>
+    <Filter Include="Dialog Files">
+      <UniqueIdentifier>{84f33392-4c9a-42ec-9818-7698d7f592cd}</UniqueIdentifier>
+      <Extensions>h;c;cpp</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{55f789df-b601-4abc-b760-af671dda3b72}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AfxCore.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GridCtrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GridDropTarget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InPlaceEdit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InPlaceList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SListCombos.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticDoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StkUI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleTip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TSKStatusBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TSKTabControl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TSKTabManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamDlg\36BIASDlg.cpp">
+      <Filter>ParamDlg Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamDlg\ADDlg.cpp">
+      <Filter>ParamDlg Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamDlg\ARBRDlg.cpp">
+      <Filter>ParamDlg Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamDlg\ASIDlg.cpp">
+      <Filter>ParamDlg Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamDlg\ATRDlg.cpp">
+      <Filter>ParamDlg Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamDlg\BBIDlg.cpp">
+      <Filter>ParamDlg Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamDlg\BIASDlg.cpp">
+      <Filter>ParamDlg Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamDlg\BOLLDlg.cpp">
+      <Filter>ParamDlg Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamDlg\CCIDlg.cpp">
+      <Filter>ParamDlg Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamDlg\CDPDlg.cpp">
+      <Filter>ParamDlg Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamDlg\CIDlg.cpp">
+      <Filter>ParamDlg Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamDlg\CRDlg.cpp">
+      <Filter>ParamDlg Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamDlg\CVDlg.cpp">
+      <Filter>ParamDlg Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamDlg\CWDlg.cpp">
+      <Filter>ParamDlg Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamDlg\CYODlg.cpp">
+      <Filter>ParamDlg Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamDlg\DCYODlg.cpp">
+      <Filter>ParamDlg Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamDlg\DJDlg.cpp">
+      <Filter>ParamDlg Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamDlg\DMIDlg.cpp">
+      <Filter>ParamDlg Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamDlg\DMKIDlg.cpp">
+      <Filter>ParamDlg Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamDlg\DPERDlg.cpp">
+      <Filter>ParamDlg Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamDlg\DPODlg.cpp">
+      <Filter>ParamDlg Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamDlg\EMVDlg.cpp">
+      <Filter>ParamDlg Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamDlg\HLCDlg.cpp">
+      <Filter>ParamDlg Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamDlg\HSLDlg.cpp">
+      <Filter>ParamDlg Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamDlg\KDJDlg.cpp">
+      <Filter>ParamDlg Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamDlg\KSTDlg.cpp">
+      <Filter>ParamDlg Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamDlg\MACDDlg.cpp">
+      <Filter>ParamDlg Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamDlg\MADlg.cpp">
+      <Filter>ParamDlg Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamDlg\MAOSCDlg.cpp">
+      <Filter>ParamDlg Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamDlg\MFIDlg.cpp">
+      <Filter>ParamDlg Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamDlg\MIKEDlg.cpp">
+      <Filter>ParamDlg Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamDlg\MOBVDlg.cpp">
+      <Filter>ParamDlg Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamDlg\MTMDlg.cpp">
+      <Filter>ParamDlg Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamDlg\NVIDlg.cpp">
+      <Filter>ParamDlg Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamDlg\NVRSIDlg.cpp">
+      <Filter>ParamDlg Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamDlg\OBVDlg.cpp">
+      <Filter>ParamDlg Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamDlg\OSCDlg.cpp">
+      <Filter>ParamDlg Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamDlg\PCNTDlg.cpp">
+      <Filter>ParamDlg Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamDlg\PSYDlg.cpp">
+      <Filter>ParamDlg Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamDlg\PVDlg.cpp">
+      <Filter>ParamDlg Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamDlg\PVIDlg.cpp">
+      <Filter>ParamDlg Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamDlg\RDlg.cpp">
+      <Filter>ParamDlg Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamDlg\REIDlg.cpp">
+      <Filter>ParamDlg Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamDlg\ROCDlg.cpp">
+      <Filter>ParamDlg Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamDlg\RSIDlg.cpp">
+      <Filter>ParamDlg Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamDlg\SARDlg.cpp">
+      <Filter>ParamDlg Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamDlg\SetParamDlg.cpp">
+      <Filter>ParamDlg Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamDlg\UOSDlg.cpp">
+      <Filter>ParamDlg Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamDlg\VMACDDlg.cpp">
+      <Filter>ParamDlg Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamDlg\VolumeDlg.cpp">
+      <Filter>ParamDlg Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamDlg\VRDlg.cpp">
+      <Filter>ParamDlg Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamDlg\VROCDlg.cpp">
+      <Filter>ParamDlg Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamDlg\VRSIDlg.cpp">
+      <Filter>ParamDlg Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamDlg\WVADDlg.cpp">
+      <Filter>ParamDlg Files</Filter>
+    </ClCompile>
+    <ClCompile Include="View\BaseView.cpp">
+      <Filter>View Files</Filter>
+    </ClCompile>
+    <ClCompile Include="View\DrawTech.cpp">
+      <Filter>View Files</Filter>
+    </ClCompile>
+    <ClCompile Include="View\GraphView.cpp">
+      <Filter>View Files</Filter>
+    </ClCompile>
+    <ClCompile Include="View\GroupView.cpp">
+      <Filter>View Files</Filter>
+    </ClCompile>
+    <ClCompile Include="View\InfoView.cpp">
+      <Filter>View Files</Filter>
+    </ClCompile>
+    <ClCompile Include="View\MultiSort.cpp">
+      <Filter>View Files</Filter>
+    </ClCompile>
+    <ClCompile Include="View\MultiSortView.cpp">
+      <Filter>View Files</Filter>
+    </ClCompile>
+    <ClCompile Include="View\RealTime.cpp">
+      <Filter>View Files</Filter>
+    </ClCompile>
+    <ClCompile Include="View\RealTimeView.cpp">
+      <Filter>View Files</Filter>
+    </ClCompile>
+    <ClCompile Include="View\SelectorView.cpp">
+      <Filter>View Files</Filter>
+    </ClCompile>
+    <ClCompile Include="View\Simulation.cpp">
+      <Filter>View Files</Filter>
+    </ClCompile>
+    <ClCompile Include="View\SimuView.cpp">
+      <Filter>View Files</Filter>
+    </ClCompile>
+    <ClCompile Include="View\SListView.cpp">
+      <Filter>View Files</Filter>
+    </ClCompile>
+    <ClCompile Include="View\StockGraph.cpp">
+      <Filter>View Files</Filter>
+    </ClCompile>
+    <ClCompile Include="View\StrategyView.cpp">
+      <Filter>View Files</Filter>
+    </ClCompile>
+    <ClCompile Include="View\TechsView.cpp">
+      <Filter>View Files</Filter>
+    </ClCompile>
+    <ClCompile Include="View\WizardView.cpp">
+      <Filter>View Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\AlarmResultDlg.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\AlarmSettingDlg.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\BaseIndexDlg.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\CacheLoadDlg.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\CloseStrategyDlg.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\DataSrcDlg.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\DownloadDlg.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\EditKDATADlg.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\ExportDest.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\ExportOption.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\FilterInfoDlg.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\InstallPacDlg.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\ListExportDlg.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\NetInfoDlg.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\SelectGrpDlg.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\SelectStk.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\SelectTraderDlg.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\SetBasedataDlg.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\SetBaseDlg.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\SetColorDlg.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\SetColumnDlg.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\SetDrdataDlg.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\SetGroupDlg.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\SetKDataDlg.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\SetPrpt.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\SetRate.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\SetRule.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\SimuAddOpDlg.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\SimuAddStockDlg.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\SimuAdvancedDlg.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\SimuRealOp.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\SimuReport.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\SimuStatDlg.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\TyDataDlg.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\UpgradeDlg.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="StkUI.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AfxCore.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CellRange.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ChildFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GridCtrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GridDropTarget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InPlaceEdit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InPlaceList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MemDC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SListCombos.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticDoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StkUI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleTip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TSKStatusBar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TSKTabControl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TSKTabManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamDlg\36BIASDlg.h">
+      <Filter>ParamDlg Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamDlg\ADDlg.h">
+      <Filter>ParamDlg Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamDlg\ARBRDlg.h">
+      <Filter>ParamDlg Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamDlg\ASIDlg.h">
+      <Filter>ParamDlg Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamDlg\ATRDlg.h">
+      <Filter>ParamDlg Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamDlg\BBIDlg.h">
+      <Filter>ParamDlg Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamDlg\BIASDlg.h">
+      <Filter>ParamDlg Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamDlg\BOLLDlg.h">
+      <Filter>ParamDlg Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamDlg\CCIDlg.h">
+      <Filter>ParamDlg Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamDlg\CDPDlg.h">
+      <Filter>ParamDlg Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamDlg\CIDlg.h">
+      <Filter>ParamDlg Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamDlg\CRDlg.h">
+      <Filter>ParamDlg Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamDlg\CVDlg.h">
+      <Filter>ParamDlg Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamDlg\CWDlg.h">
+      <Filter>ParamDlg Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamDlg\CYODlg.h">
+      <Filter>ParamDlg Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamDlg\DCYODlg.h">
+      <Filter>ParamDlg Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamDlg\DJDlg.h">
+      <Filter>ParamDlg Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamDlg\DMIDlg.h">
+      <Filter>ParamDlg Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamDlg\DMKIDlg.h">
+      <Filter>ParamDlg Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamDlg\DPERDlg.h">
+      <Filter>ParamDlg Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamDlg\DPODlg.h">
+      <Filter>ParamDlg Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamDlg\EMVDlg.h">
+      <Filter>ParamDlg Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamDlg\HLCDlg.h">
+      <Filter>ParamDlg Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamDlg\HSLDlg.h">
+      <Filter>ParamDlg Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamDlg\KDJDlg.h">
+      <Filter>ParamDlg Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamDlg\KSTDlg.h">
+      <Filter>ParamDlg Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamDlg\MACDDlg.h">
+      <Filter>ParamDlg Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamDlg\MADlg.h">
+      <Filter>ParamDlg Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamDlg\MAOSCDlg.h">
+      <Filter>ParamDlg Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamDlg\MFIDlg.h">
+      <Filter>ParamDlg Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamDlg\MIKEDlg.h">
+      <Filter>ParamDlg Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamDlg\MOBVDlg.h">
+      <Filter>ParamDlg Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamDlg\MTMDlg.h">
+      <Filter>ParamDlg Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamDlg\NVIDlg.h">
+      <Filter>ParamDlg Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamDlg\NVRSIDlg.h">
+      <Filter>ParamDlg Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamDlg\OBVDlg.h">
+      <Filter>ParamDlg Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamDlg\OSCDlg.h">
+      <Filter>ParamDlg Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamDlg\PCNTDlg.h">
+      <Filter>ParamDlg Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamDlg\PSYDlg.h">
+      <Filter>ParamDlg Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamDlg\PVDlg.h">
+      <Filter>ParamDlg Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamDlg\PVIDlg.h">
+      <Filter>ParamDlg Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamDlg\RDlg.h">
+      <Filter>ParamDlg Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamDlg\REIDlg.h">
+      <Filter>ParamDlg Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamDlg\ROCDlg.h">
+      <Filter>ParamDlg Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamDlg\RSIDlg.h">
+      <Filter>ParamDlg Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamDlg\SARDlg.h">
+      <Filter>ParamDlg Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamDlg\SetParamDlg.h">
+      <Filter>ParamDlg Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamDlg\UOSDlg.h">
+      <Filter>ParamDlg Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamDlg\VMACDDlg.h">
+      <Filter>ParamDlg Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamDlg\VolumeDlg.h">
+      <Filter>ParamDlg Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamDlg\VRDlg.h">
+      <Filter>ParamDlg Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamDlg\VROCDlg.h">
+      <Filter>ParamDlg Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamDlg\VRSIDlg.h">
+      <Filter>ParamDlg Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamDlg\WVADDlg.h">
+      <Filter>ParamDlg Files</Filter>
+    </ClInclude>
+    <ClInclude Include="View\BaseView.h">
+      <Filter>View Files</Filter>
+    </ClInclude>
+    <ClInclude Include="View\GraphView.h">
+      <Filter>View Files</Filter>
+    </ClInclude>
+    <ClInclude Include="View\GroupView.h">
+      <Filter>View Files</Filter>
+    </ClInclude>
+    <ClInclude Include="View\InfoView.h">
+      <Filter>View Files</Filter>
+    </ClInclude>
+    <ClInclude Include="View\MultiSort.h">
+      <Filter>View Files</Filter>
+    </ClInclude>
+    <ClInclude Include="View\MultiSortView.h">
+      <Filter>View Files</Filter>
+    </ClInclude>
+    <ClInclude Include="View\RealTime.h">
+      <Filter>View Files</Filter>
+    </ClInclude>
+    <ClInclude Include="View\RealTimeView.h">
+      <Filter>View Files</Filter>
+    </ClInclude>
+    <ClInclude Include="View\SelectorView.h">
+      <Filter>View Files</Filter>
+    </ClInclude>
+    <ClInclude Include="View\Simulation.h">
+      <Filter>View Files</Filter>
+    </ClInclude>
+    <ClInclude Include="View\SimuView.h">
+      <Filter>View Files</Filter>
+    </ClInclude>
+    <ClInclude Include="View\SListView.h">
+      <Filter>View Files</Filter>
+    </ClInclude>
+    <ClInclude Include="View\StockGraph.h">
+      <Filter>View Files</Filter>
+    </ClInclude>
+    <ClInclude Include="View\StrategyView.h">
+      <Filter>View Files</Filter>
+    </ClInclude>
+    <ClInclude Include="View\TechsView.h">
+      <Filter>View Files</Filter>
+    </ClInclude>
+    <ClInclude Include="View\WizardView.h">
+      <Filter>View Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\AlarmResultDlg.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\AlarmSettingDlg.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\BaseIndexDlg.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\CacheLoadDlg.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\CloseStrategyDlg.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\DataSrcDlg.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\downloaddlg.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\EditKDATADlg.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\ExportDest.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\ExportOption.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\FilterInfoDlg.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\InstallPacDlg.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\ListExportDlg.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\NetInfoDlg.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\SelectGrpDlg.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\SelectStk.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\SelectTraderDlg.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\SetBasedataDlg.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\SetBaseDlg.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\SetColorDlg.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\SetColumnDlg.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\SetDrdataDlg.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\SetGroupDlg.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\SetKDataDlg.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\SetPrpt.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\SetRate.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\SetRule.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\SimuAddOpDlg.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\SimuAddStockDlg.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\SimuAdvancedDlg.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\SimuRealOp.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\SimuReport.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\SimuStatDlg.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\TyDataDlg.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\UpgradeDlg.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AfxCore.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="res\bin00001.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\cursor1.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\text1.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\text_dec.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\text_upg.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\alarm_in.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\alarm_wa.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\balang.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\balang.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00001.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00002.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00003.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00004.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00005.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00006.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00007.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00008.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00009.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00010.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00011.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00012.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00013.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00014.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00015.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00016.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00017.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\cancel.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\controls6.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\dlgleftl.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\dlgtoplo.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\groupvie.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\helplogo.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ico00001.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ico00002.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ico00003.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ico00004.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ico00005.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ico00006.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ico00007.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ico00008.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ico00009.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ico00010.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ico00011.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ico00012.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ico00013.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ico00014.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ico00015.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\idr_main.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\idr_simt.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\il_tab.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\imagelist.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\indicato.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\leftlogo.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\mainbar.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\mainbar1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\mainfram.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\menuchec.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ok.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\package.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\periodba.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\prjview_.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\simubar.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\slistbar.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\splash.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\startlog.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\strategy.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\strategy.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\techsvie.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\toplogo.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\viewbar.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\wizardhe.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\worksp_b.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\worksp_t.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\workspba.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\world.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\zlinker.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\zlinker1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

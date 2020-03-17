@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{52c4bbd9-793e-4136-96b8-1702d0009769}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{9fb30e29-86cb-460b-bb23-6fd4d52dc9ff}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="SPBaseClass Files">
+      <UniqueIdentifier>{2ea11a11-8674-49c1-99ba-e1ff70940927}</UniqueIdentifier>
+      <Extensions>h;cpp</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AfxCore.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Alarm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Boyermor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CommFuns.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Container.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Database.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DayTrader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DRData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Express.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IMCode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MathParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Minute.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Outline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Packets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Profile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QianLong.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Report.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SelfDB.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShengLong.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StkLib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Stock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Strategy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Strings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StStore.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TechCLK.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TechEnergy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TechKLine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Technique.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TechOther.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TechSwing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TechTrend.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TechUser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpArchive.cpp">
+      <Filter>SPBaseClass Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpAssert.cpp">
+      <Filter>SPBaseClass Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpColl.cpp">
+      <Filter>SPBaseClass Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpDebug.cpp">
+      <Filter>SPBaseClass Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpFile.cpp">
+      <Filter>SPBaseClass Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpMemory.cpp">
+      <Filter>SPBaseClass Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpObject.cpp">
+      <Filter>SPBaseClass Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpString.cpp">
+      <Filter>SPBaseClass Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpTime.cpp">
+      <Filter>SPBaseClass Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpValid.cpp">
+      <Filter>SPBaseClass Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="StkLib.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\Include\Stock.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\Include\SpArchive.inl">
+      <Filter>SPBaseClass Files</Filter>
+    </None>
+    <None Include="..\Include\SpColl.inl">
+      <Filter>SPBaseClass Files</Filter>
+    </None>
+    <None Include="..\Include\SpObject.inl">
+      <Filter>SPBaseClass Files</Filter>
+    </None>
+    <None Include="..\Include\SpObjErr.inl">
+      <Filter>SPBaseClass Files</Filter>
+    </None>
+    <None Include="..\Include\SpString.inl">
+      <Filter>SPBaseClass Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="StkLib.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Include\AfxCore.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Alarm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\boyermor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\CommFuns.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Container.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Database.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DayTrader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Express.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\MathParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Packets.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Profile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QianLong.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SelfDB.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShengLong.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\StkLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Stock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Strategy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Strings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Technique.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\TechUser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\SpArchive.h">
+      <Filter>SPBaseClass Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\SpAssert.h">
+      <Filter>SPBaseClass Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\SpColl.h">
+      <Filter>SPBaseClass Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpDebug.h">
+      <Filter>SPBaseClass Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\SpDefs.h">
+      <Filter>SPBaseClass Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\SpFile.h">
+      <Filter>SPBaseClass Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpLock.h">
+      <Filter>SPBaseClass Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpMemory.h">
+      <Filter>SPBaseClass Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\SpObject.h">
+      <Filter>SPBaseClass Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\SpPlat.h">
+      <Filter>SPBaseClass Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\SpString.h">
+      <Filter>SPBaseClass Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\SpTime.h">
+      <Filter>SPBaseClass Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

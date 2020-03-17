@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2012b538-71fa-4aea-8adb-c4ac9401b82b}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{2b8cc5f9-89b7-4cdd-80e9-6f83c990623a}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Receiver Files">
+      <UniqueIdentifier>{a1470f35-513e-40d7-9045-6322fa5185d8}</UniqueIdentifier>
+      <Extensions>h;c;cpp</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{db02833c-80c2-4afd-be60-43ee0d2b6193}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="SMailer">
+      <UniqueIdentifier>{e4d20a81-9993-45eb-8ba3-5999bb8a7ced}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tongshi Files">
+      <UniqueIdentifier>{5c121dbc-6b11-4f4a-aaa9-7c8d2f3542d0}</UniqueIdentifier>
+      <Extensions>h;c;cpp</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AfxCore.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="base64.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EditSrvDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpClt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InfoZip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Markup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NetDB.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProxySetDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProxySocket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QSProfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Secret.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StartupDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StkNet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Strings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="XMLDoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectEngineDlg.cpp">
+      <Filter>Receiver Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StkReceiver.cpp">
+      <Filter>Receiver Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MUtils\Base64Helper.cpp">
+      <Filter>SMailer</Filter>
+    </ClCompile>
+    <ClCompile Include="SMailer\SMailer.cpp">
+      <Filter>SMailer</Filter>
+    </ClCompile>
+    <ClCompile Include="STKDRV.cpp">
+      <Filter>Tongshi Files</Filter>
+    </ClCompile>
+    <ClCompile Include="STKDRVContainer.cpp">
+      <Filter>Tongshi Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tongshi.cpp">
+      <Filter>Tongshi Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="StkNet.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\Include\Secret.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="res\StkNet.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="StkNet.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Include\AfxCore.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\base64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EditSrvDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\HttpClt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\InfoZip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Markup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\NetDB.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProxySetDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProxySocket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\QSProfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Secret.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\StartupDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\StkNet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Strings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UnzipDLL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\XMLDoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\ZCallBck.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\ZipDLL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectEngineDlg.h">
+      <Filter>Receiver Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\StkReceiver.h">
+      <Filter>Receiver Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MUtils\Base64Helper.h">
+      <Filter>SMailer</Filter>
+    </ClInclude>
+    <ClInclude Include="MUtils\FileHelper.h">
+      <Filter>SMailer</Filter>
+    </ClInclude>
+    <ClInclude Include="SMailer\SMailer.h">
+      <Filter>SMailer</Filter>
+    </ClInclude>
+    <ClInclude Include="MUtils\WinSockHelper.h">
+      <Filter>SMailer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\STKDRV.h">
+      <Filter>Tongshi Files</Filter>
+    </ClInclude>
+    <ClInclude Include="STKDRVContainer.h">
+      <Filter>Tongshi Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Stockdrv.h">
+      <Filter>Tongshi Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tongshi.h">
+      <Filter>Tongshi Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\dlgleftl.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\leftlogo.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>
