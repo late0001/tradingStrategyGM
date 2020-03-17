@@ -123,4 +123,5 @@ For example, MFC42DEU.DLL contains resources translated to German.)  If you
 don't do this, some of the UI elements of your application will remain in the
 language of the operating system.
 
+需要调试要改下命令路径
 /////////////////////////////////////////////////////////////////////////////
